@@ -5,7 +5,7 @@ Tmap = MSFD;
 n_ROI=size(Tmap,1);
 
 % load expression data 
-expression_gene = importdata(strcat('Data',filesep, parcel,'_gene_expression_thr_01.xlsx'));
+expression_gene = importdata(strcat('Data',filesep, parcel,'_gene_expression.xlsx'));
 expre_data =  expression_gene.data;
 expre_data = expre_data(1:n_ROI,2:end);
 expre_name =  expression_gene.textdata(1,2:end)';

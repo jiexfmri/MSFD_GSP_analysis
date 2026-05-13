@@ -52,7 +52,7 @@ xlswrite(strcat(file_name,'/',parcel,'_',type,'_Recon_corr_task47_mean_all','.xl
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% NULL mode
 
-null_model = 1;
+null_model = 0;
 if null_model == 1
 
     disp('Running null model...')
