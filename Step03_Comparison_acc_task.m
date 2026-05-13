@@ -19,8 +19,8 @@ X_task47 = X_task47.zstat;
 % connectome
 Net = load(strcat('Data',filesep, parcel,'_Fusion_all.mat'));
 
-% networks = {'SC', 'MPC', 'GD','SC_MPC', 'SC_GD','MPC_GD','SC_MPC_GD'};
-networks = {'SC_MPC_GD'};
+networks = {'SC', 'MPC', 'GD','SC_MPC', 'SC_GD','MPC_GD','SC_MPC_GD'};
+% networks = {'SC_MPC_GD'};
 
 ACC_key_task7_subj = struct();
 AUC_key_task7_subj = struct();

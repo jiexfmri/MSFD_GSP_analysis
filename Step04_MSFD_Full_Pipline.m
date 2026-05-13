@@ -32,4 +32,4 @@ zX_RS = get_HCP_BOLD_fMRI(parcel);
 [hierachical] = Relationship_Hierarchy(MSFD_log,parcel);
 
 % gene analyis
-[Pls_gene, Pls_VAR_gene] = Gene_PLS_analysis(parcel,type,MSFD_log);
+%[Pls_gene, Pls_VAR_gene] = Gene_PLS_analysis(parcel,type,MSFD_log);
